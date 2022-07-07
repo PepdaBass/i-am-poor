@@ -8,8 +8,8 @@ void main() {
           title: const Text('I am poor'),
           backgroundColor: Colors.green,
         ),
-        body: Center(child: Image(
-          image: AssetImage()
+        body: const Center(child: Image(
+          image: AssetImage('images/emptyWallet.jpg')
         )),
       ),
     ),
